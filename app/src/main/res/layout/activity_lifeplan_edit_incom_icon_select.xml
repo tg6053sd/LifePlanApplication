@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LifePlanEditIncomIconSelectActivity">
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconHongyou"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hongyou" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconPartTimeJob"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIconHongyou"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconHongyou"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIconHongyou"
+        app:srcCompat="@drawable/part_time_job" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconHudousan"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIconPartTimeJob"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconPartTimeJob"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIconPartTimeJob"
+        app:srcCompat="@drawable/hudousan" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconStock"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIconHudousan"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconHudousan"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIconHudousan"
+        app:srcCompat="@drawable/stock" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconNenkin"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivLifePlanEditIconHongyou"
+        app:layout_constraintStart_toStartOf="@+id/ivLifePlanEditIconHongyou"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconHongyou"
+        app:srcCompat="@drawable/boy2" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconHukugyou"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconNenkin"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconPartTimeJob"
+        app:srcCompat="@drawable/girl2" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconOther"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconHukugyou"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconHudousan"
+        app:srcCompat="@drawable/baby_boy" />
+
+
+
+</android.support.constraint.ConstraintLayout>

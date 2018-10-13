@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LifePlanEditKazokuActivity">
+
+    <TextView
+        android:id="@+id/tvLifePlanEditKazokuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/tv_lifeplan_edit_kazoku_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditKazokuKbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_kazoku_Kbn"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditKazokuTitle" />
+
+    <Spinner
+        android:id="@+id/spinnerKazokuKbn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:entries="@array/txt_kazoku_arr"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditKazokuKbn"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditKazokuKbn"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditKazokuKbn" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditKazokuIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_kazoku_Icon"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditKazokuKbn" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIcon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditKazokuIcon"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditKazokuIcon"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditKazokuIcon"
+        app:srcCompat="@drawable/faq" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditKazokuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_kazoku_name"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditKazokuIcon" />
+
+    <EditText
+        android:id="@+id/edLifePlanEditKihonKazokuName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditKazokuName"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditKazokuName"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditKazokuName" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditKihonSetainusiOld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_kazoku_old"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditKazokuName" />
+
+    <EditText
+        android:id="@+id/edLifePlanEditKihonSetainusiOld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:ems="3"
+        android:inputType="numberSigned"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditKihonSetainusiOld"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditKihonSetainusiOld"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditKihonSetainusiOld" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditKihonSetainusiOldTani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tv_tani_old"
+        app:layout_constraintBottom_toBottomOf="@+id/edLifePlanEditKihonSetainusiOld"
+        app:layout_constraintStart_toEndOf="@+id/edLifePlanEditKihonSetainusiOld"
+        app:layout_constraintTop_toTopOf="@+id/edLifePlanEditKihonSetainusiOld" />
+
+
+    <Button
+        android:id="@+id/btnLifePlanEditKazokuSave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/btn_lifeplan_edit_kihon_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

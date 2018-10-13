@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LifePlanEditIncomActivity">
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:text="@string/tv_lifeplan_edit_incom_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomWho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_incom_who"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditIncomTitle" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIncomWhoIcon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditIncomWho"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditIncomWho"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditIncomWho"
+        app:srcCompat="@drawable/faq" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomWhoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tv_lifeplan_edit_incom_whoname"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIncomWhoIcon"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIncomWhoIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIncomWhoIcon" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomBunrui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_incom_bunrui"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditIncomWho" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIncomBunruiIcon"
+        android:layout_width="@android:dimen/app_icon_size"
+        android:layout_height="@android:dimen/app_icon_size"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditIncomBunrui"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditIncomBunrui"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditIncomBunrui"
+        app:srcCompat="@drawable/faq" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomBunruiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tv_lifeplan_edit_incom_bunruiname"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIncomBunruiIcon"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIncomBunruiIcon"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIncomBunruiIcon" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomKikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv_lifeplan_edit_incom_kikan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditIncomBunrui" />
+
+    <EditText
+        android:id="@+id/edLifePlanEditIncomKaisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:ems="3"
+        android:inputType="number"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditIncomKikan"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditIncomKikan"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditIncomKikan" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomKikanKara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tv_kara"
+        app:layout_constraintBottom_toBottomOf="@+id/edLifePlanEditIncomKaisi"
+        app:layout_constraintStart_toEndOf="@+id/edLifePlanEditIncomKaisi"
+        app:layout_constraintTop_toTopOf="@+id/edLifePlanEditIncomKaisi" />
+
+    <EditText
+        android:id="@+id/edLifePlanEditIncomShuuryou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:ems="3"
+        android:inputType="number"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditIncomKikanKara"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditIncomKikanKara"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditIncomKikanKara" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomKikanTani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tv_tani_old"
+        app:layout_constraintBottom_toBottomOf="@+id/edLifePlanEditIncomShuuryou"
+        app:layout_constraintStart_toEndOf="@+id/edLifePlanEditIncomShuuryou"
+        app:layout_constraintTop_toTopOf="@+id/edLifePlanEditIncomShuuryou" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomNengaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_lifeplan_edit_incom_nengaku"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditIncomKikan" />
+
+
+    <EditText
+        android:id="@+id/edLifePlanEditIncomNengaku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:ems="5"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditIncomNengaku"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditIncomNengaku"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditIncomNengaku" />
+
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomNengakuTani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tv_tani_yen"
+        app:layout_constraintBottom_toBottomOf="@+id/edLifePlanEditIncomNengaku"
+        app:layout_constraintStart_toEndOf="@+id/edLifePlanEditIncomNengaku"
+        app:layout_constraintTop_toTopOf="@+id/edLifePlanEditIncomNengaku" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomIncreasingRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tv_lifeplan_edit_incom_increasingrate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLifePlanEditIncomNengaku" />
+
+    <EditText
+        android:id="@+id/edLifePlanEditIncomIncreasingRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:ems="5"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLifePlanEditIncomIncreasingRate"
+        app:layout_constraintStart_toEndOf="@+id/tvLifePlanEditIncomIncreasingRate"
+        app:layout_constraintTop_toTopOf="@+id/tvLifePlanEditIncomIncreasingRate" />
+
+    <TextView
+        android:id="@+id/tvLifePlanEditIncomIncreasingRateTani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/tv_tani_percent"
+        app:layout_constraintBottom_toBottomOf="@+id/edLifePlanEditIncomIncreasingRate"
+        app:layout_constraintStart_toEndOf="@+id/edLifePlanEditIncomIncreasingRate"
+        app:layout_constraintTop_toTopOf="@+id/edLifePlanEditIncomIncreasingRate" />
+
+    <Button
+        android:id="@+id/btnLifePlanEditIncomSave"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/btn_lifeplan_edit_incom_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

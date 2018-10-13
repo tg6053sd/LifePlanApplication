@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LifePlanEditKazokuIconSelectActivity">
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconMan"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/man" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconWoman"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIconMan"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconMan"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIconMan"
+        app:srcCompat="@drawable/woman" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconBoy"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIconWoman"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconWoman"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIconWoman"
+        app:srcCompat="@drawable/boy" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconGirl"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivLifePlanEditIconBoy"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconBoy"
+        app:layout_constraintTop_toTopOf="@+id/ivLifePlanEditIconBoy"
+        app:srcCompat="@drawable/girl" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconBoy2"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivLifePlanEditIconMan"
+        app:layout_constraintStart_toStartOf="@+id/ivLifePlanEditIconMan"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconMan"
+        app:srcCompat="@drawable/boy2" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconGirl2"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconBoy2"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconWoman"
+        app:srcCompat="@drawable/girl2" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconBabyBoy"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconGirl2"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconBoy"
+        app:srcCompat="@drawable/baby_boy" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconBabyGirl"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconBabyBoy"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconGirl"
+        app:srcCompat="@drawable/baby_girl" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconGrandFather"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/ivLifePlanEditIconBoy2"
+        app:layout_constraintStart_toStartOf="@+id/ivLifePlanEditIconBoy2"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconBoy2"
+        app:srcCompat="@drawable/grandfather" />
+
+    <ImageView
+        android:id="@+id/ivLifePlanEditIconGrandMother"
+        android:layout_width="@android:dimen/notification_large_icon_height"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/ivLifePlanEditIconGrandFather"
+        app:layout_constraintTop_toBottomOf="@+id/ivLifePlanEditIconGirl2"
+        app:srcCompat="@drawable/grandmother" />
+
+
+</android.support.constraint.ConstraintLayout>

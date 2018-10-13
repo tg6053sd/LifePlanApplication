@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_lifeplan"
+        android:icon="@drawable/lifeplan"
+        android:title="@string/main_btnnav_lifeplan" />
+
+    <item
+        android:id="@+id/navigation_simulation"
+        android:icon="@drawable/simulation"
+        android:title="@string/main_btnnav_simulation" />
+
+    <item
+        android:id="@+id/navigation_news"
+        android:icon="@drawable/news"
+        android:title="@string/main_btnnav_news" />
+
+    <item
+        android:id="@+id/navigation_other"
+        android:icon="@drawable/other"
+        android:title="@string/main_btnnav_other" />
+</menu>

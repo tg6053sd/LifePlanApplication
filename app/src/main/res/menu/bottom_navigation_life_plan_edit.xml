@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_kazoku"
+        android:icon="@drawable/kihon"
+        android:title="@string/btn_ng_kazoku" />
+
+    <item
+        android:id="@+id/navigation_incom"
+        android:icon="@drawable/incom"
+        android:title="@string/btn_ng_incom" />
+
+    <item
+        android:id="@+id/navigation_outgo"
+        android:icon="@drawable/outgo"
+        android:title="@string/btn_ng_outgo" />
+
+    <item
+        android:id="@+id/navigation_zandaka"
+        android:icon="@drawable/zandaka"
+        android:title="@string/btn_ng_zandaka" />
+</menu>

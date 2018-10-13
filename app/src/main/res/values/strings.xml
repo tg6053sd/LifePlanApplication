@@ -1,0 +1,94 @@
+<resources>
+    // アプリ名
+    <string name="app_name">わたしのライフプラン</string>
+
+    // ボタンナビゲーション（メイン）
+    <string name="main_btnnav_lifeplan">ライフプラン</string>
+    <string name="main_btnnav_simulation">シミュレーション</string>
+    <string name="main_btnnav_news">記事</string>
+    <string name="main_btnnav_other">その他</string>
+
+    // 共通
+    <string name="tv_tani_old">歳</string>
+    <string name="tv_tani_yen">円</string>
+    <string name="tv_tani_percent">％</string>
+    <string name="tv_kara">～</string>
+    <string name="tv_old">100</string>
+
+    // ライフプラングラフ1長期のタイトル
+    <string name="tv_lifeplan1_long_title">金融資産残高と年間収支の推移</string>
+    // ライフプラングラフ1長期リストビュー
+    <string name="lv_lifeplan1_long_nengo">1年後</string>
+    <string name="lv_lifeplan1_long_year">2019年</string>
+    <string name="lv_lifeplan1_long_old">世帯主：32歳</string>
+    <string name="lv_lifeplan1_long_zandaka">残高：1,000万円</string>
+    <string name="lv_lifeplan1_long_shuusi">収支：100万円</string>
+
+    // ライフプラングラフ2収入のタイトル
+    <string name="tv_lifeplan2_incom_title">""</string>
+    // ライフプラングラフ2収入リストビュー
+    <string name="lv_lifeplan2_incom_koumoku">本業収入</string>
+    <string name="lv_lifeplan2_incom_wariai">70.0</string>
+    <string name="lv_lifeplan2_incom_sougaku">2億円</string>
+
+    // ライフプラングラフ2支出のタイトル
+    <string name="tv_lifeplan2_outgo_title">""</string>
+    // ライフプラングラフ2支出リストビュー
+    <string name="lv_lifeplan2_outgo_koumoku">家賃</string>
+    <string name="lv_lifeplan2_outgo_wariai">50.0</string>
+    <string name="lv_lifeplan2_outgo_sougaku">5000万円</string>
+
+    // ライフプラングラフ3収入のタイトル
+    <string name="tv_lifeplan3_incom_title">""</string>
+    // ライフプラングラフ3収入リストビュー
+    <string name="lv_lifeplan3_incom_koumoku">本業収入</string>
+    <string name="lv_lifeplan3_incom_you_name">あなた</string>
+    <string name="lv_lifeplan3_incom_you_sougaku">70.0%</string>
+    <string name="lv_lifeplan3_incom_average_name">平均</string>
+    <string name="lv_lifeplan3_incom_average_sougaku">60.0%</string>
+
+    // ライフプラングラフ3支出のタイトル
+    <string name="tv_lifeplan3_outgo_title">""</string>
+    // ライフプラングラフ3支出リストビュー
+    <string name="lv_lifeplan3_outgo_koumoku">家賃</string>
+    <string name="lv_lifeplan3_outgo_you_name">あなた</string>
+    <string name="lv_lifeplan3_outgo_you_sougaku">70.0%</string>
+    <string name="lv_lifeplan3_outgo_average_name">平均</string>
+    <string name="lv_lifeplan3_outgo_average_sougaku">60.0%</string>
+    <string name="title_activity_life_plan_edit">LifePlanEditActivity</string>
+
+    // ボタンナビゲーション(ライフプラン編集画面)
+    <string name="btn_ng_kazoku">家族構成</string>
+    <string name="btn_ng_incom">収入</string>
+    <string name="btn_ng_outgo">支出</string>
+    <string name="btn_ng_zandaka">金融資産残高</string>
+    <string name="title_activity_life_plan_edit_kihon">LifePlanEditKihonActivity</string>
+
+    // ライフプラン編集画面（家族情報）
+    <string name="tv_lifeplan_edit_kazoku_title">家族情報</string>
+    <string name="tv_lifeplan_edit_kazoku_Kbn">家族の分類</string>
+    <string name="tv_lifeplan_edit_kazoku_Icon">アイコン</string>
+    <string name="tv_lifeplan_edit_kazoku_name">ニックネーム</string>
+    <string name="tv_lifeplan_edit_kazoku_old">年齢</string>
+    <string name="btn_lifeplan_edit_kihon_save">保存</string>
+
+    // ライフプラン編集画面（家族情報リストビュー）
+    <string name="tv_lifeplan_edit_kazoku_kazoku_name">家族名</string>
+
+    // ライフプラン編集画面（収入情報）
+    <string name="tv_lifeplan_edit_incom_title">収入情報</string>
+    <string name="tv_lifeplan_edit_incom_who">誰の収入</string>
+    <string name="tv_lifeplan_edit_incom_whoname">世帯主</string>
+    <string name="tv_lifeplan_edit_incom_bunrui">収入の分類</string>
+    <string name="tv_lifeplan_edit_incom_bunruiname">本業収入</string>
+    <string name="tv_lifeplan_edit_incom_kikan">期間</string>
+    <string name="tv_lifeplan_edit_incom_nengaku">年額（手取り）</string>
+    <string name="tv_lifeplan_edit_incom_getugaku">月額</string>
+    <string name="tv_lifeplan_edit_incom_increasingrate">上昇率</string>
+    <string name="tv_lifeplan_edit_incom_cycle">サイクル</string>
+    <string name="btn_lifeplan_edit_incom_save">保存</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
